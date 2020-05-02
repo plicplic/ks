@@ -1,6 +1,11 @@
 import React from "react"
+import { Link } from "gatsby"
+import Header from "../components/header"
 
 export default () => <div>
-<h1>Kumquat</h1>
-<p>The Cucumber and Mushrooms Submarine Growing Guide</p>
+<h1 style={{ color: 'purple' }}>Kumquat</h1>
+<Link to="/contact/">Contact</Link>
+<Header headerText="Hello Gatsby" />
+<img src="https://source.unsplash.com/random/400x200" alt="" />
+<p>The Cucumber and Mushroom Submarine Growing Guide</p>
 </div>
