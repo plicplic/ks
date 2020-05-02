@@ -1,3 +1,3 @@
 import React from "react"
 
-export default () => <div>Passi Messa (en trois tomes)</div>
+export default () => <div>Kumquat, un site en devenir...</div>
