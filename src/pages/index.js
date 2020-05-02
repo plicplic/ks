@@ -1,3 +1,6 @@
 import React from "react"
 
-export default () => <div>Kumquat, un site en devenir...</div>
+export default () => <div>
+<h1>Kumquat</h1>
+<p>The Cucumber and Mushrooms Submarine Growing Guide</p>
+</div>
