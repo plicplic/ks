@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 //import Header from "../components/header"
 
 export default () => <div>
-<h1 style={{ color: 'purple' }}>Kumquat</h1>
-<Link to="/contact/">Contact</Link>
+<h1>Kumquat</h1>
+<p><Link to="/contact/">Contact</Link></p>
 <img src="https://source.unsplash.com/random/400x200" alt="" />
 <p>The Cucumber and Mushroom Submarine Growing Guide</p>
 </div>
