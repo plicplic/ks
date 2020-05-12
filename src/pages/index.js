@@ -1,10 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
-//import Header from "../components/header"
+import Layout from "../components/layout"
+      //<p><Link to="/contact/">Contact</Link></p>
 
-export default () => <div>
-<h1>Kumquat</h1>
-<p><Link to="/contact/">Contact</Link></p>
-<img src="https://source.unsplash.com/random/400x200" alt="" />
-<p>The Cucumber and Mushroom Submarine Growing Guide</p>
-</div>
+export default function Home() {
+  return (
+    <Layout>
+      <h1>Kumquat</h1>
+      <img src="https://source.unsplash.com/random/400x200" alt="" />
+      <p>The Cucumber and Mushroom Submarine Growing Guide</p>
+    </Layout>
+  );
+}
+
